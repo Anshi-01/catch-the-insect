@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: dragon hunter;
+    color: #EFE1D1;
+    overflow: hidden;
+}
+.screen{
+    height: 100%;
+    width: 100%;
+    background-color:#331D2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease-out 1s;
+}
+.screen h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.screen button{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    border: solid 2px #EFE1D1;
+    background-color: transparent;
+    color: #EFE1D1;
+    font-size: 15px;
+    cursor:pointer;
+    font-family: dragon hunter;
+    font-weight: 100;
+    transition: all ease 0.5s;
+
+}
+button:active{
+    scale: 0.96;
+}
+.screen button:hover{
+    border: solid 2px #331D2C;
+    background-color: #EFE1D1;
+    color: #331D2C;
+}
+.elem{
+    /* height: 200px;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    
+}
+
+.screen h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 100;
+
+}
+.elemContainer{
+    padding: 20px 20px;
+    text-align: center;
+    height: 140px;
+    width: 130px;
+    border: solid 2px #EFE1D1;
+    color: #EFE1D1;
+    cursor: grab;
+    transition: all ease-out 0.5s;
+    box-shadow: 3px 3px 10px black;
+
+}
+.elemContainer img{
+    height: 100%;
+    /* object-fit: cover; */
+}
+.elemContainer h4{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.elemContainer:hover{
+    border: solid 2px #331D2C;
+    background-color: #EFE1D1;
+    color: #331D2C;
+    
+}
+.elemContainer:active{
+    scale: 0.96;
+}
+#nav{
+    padding: 0 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #331D2C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #EFE1D1;
+}
+
+#playground{
+    height: 90%;
+    width: 100%;
+    background-color: #331D2C;
+}
+#playground img{
+    height: 100px;
+    position: absolute;
+}
+#nav h4{
+    font-weight: 100;
+    font-size: 15px;
+}
