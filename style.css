@@ -76,6 +76,7 @@ button:active{
     box-shadow: 3px 3px 10px black;
 
 }
+
 .elemContainer img{
     height: 100%;
     /* object-fit: cover; */
@@ -94,6 +95,8 @@ button:active{
 }
 .elemContainer:active{
     scale: 0.96;
+    cursor: grabbing;
+
 }
 #nav{
     padding: 0 30px;
@@ -110,12 +113,30 @@ button:active{
     height: 90%;
     width: 100%;
     background-color: #331D2C;
+    cursor: pointer;
 }
 #playground img{
     height: 100px;
     position: absolute;
+    cursor: grab;
+}
+#playground img:active{
+    cursor: grabbing;
 }
 #nav h4{
     font-weight: 100;
     font-size: 15px;
+}
+.time-score{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 100px;
+    width: 200px;
+    background-color: #efe1d185;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    color: #331D2C;
+    display: none;
 }
