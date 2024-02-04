@@ -62,13 +62,13 @@ function createImg(){
    
     images.forEach(function(elem){
         elem.addEventListener("click",function(){
-           score=score+1
+           score++
             scoreVal.innerHTML=score
         })
     })
 
     setTimeout(() => {
-       time=time+1
+       time++
         timeVal.innerHTML=time
     }, 1000);
 
