@@ -65,6 +65,7 @@ function createImg(){
            score++
             scoreVal.innerHTML=score
         })
+      
     })
 
     setTimeout(() => {

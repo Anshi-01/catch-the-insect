@@ -131,12 +131,14 @@ button:active{
     position: absolute;
     top: 40%;
     left: 40%;
-    height: 100px;
+    height: 90px;
     width: 200px;
-    background-color: #efe1d185;
+    background-color: #efe1d1d1;
     border-radius: 15px;
     padding: 20px;
     font-size: 15px;
     color: #331D2C;
     display: none;
+    text-align: center;
+    line-height: 25px;
 }
