@@ -120,9 +120,7 @@ button:active{
     position: absolute;
     cursor: grab;
 }
-#playground img:active{
-    cursor: grabbing;
-}
+
 #nav h4{
     font-weight: 100;
     font-size: 15px;
@@ -141,4 +139,21 @@ button:active{
     display: none;
     text-align: center;
     line-height: 25px;
+}
+#playground h3{
+    background-color: #EFE1D1;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    color: #331D2C;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    top: 50%;
+    translate: transform(-50%);
+    display: none;
+    z-index: 2;
+    font-size: 15px;
+    line-height: 25px;
+
 }
